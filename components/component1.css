@@ -1,0 +1,68 @@
+.component1-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.component1-text {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 70px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.component1-text2 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 18px;
+  font-stretch: normal;
+  margin-right: 70px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.component1-text4 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 30px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: var(--dl-space-space-threeunits);
+  margin-bottom: 0;
+  text-decoration: none;
+}
+@media(max-width: 1200px) {
+  .component1-container {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 991px) {
+  .component1-text {
+    margin-right: 30px;
+  }
+  .component1-text2 {
+    margin-right: 30px;
+  }
+  .component1-text4 {
+    margin-right: 30px;
+  }
+}

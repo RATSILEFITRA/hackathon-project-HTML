@@ -1,0 +1,113 @@
+.footer-footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 100%;
+  align-self: stretch;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: center;
+  background-color: var(--dl-color-success-500);
+}
+.footer-text {
+  color: #ffffffff;
+  align-self: center;
+  text-align: center;
+}
+.footer-icon-group {
+  top: 9px;
+  right: 0px;
+  display: none;
+  position: absolute;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.footer-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.footer-icon4 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.footer-root-class-name {
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .footer-footer {
+    justify-content: space-between;
+  }
+  .footer-icon-group {
+    display: none;
+  }
+}
+@media(max-width: 991px) {
+  .footer-footer {
+    position: static;
+  }
+  .footer-icon-group {
+    display: none;
+  }
+}
+@media(max-width: 767px) {
+  .footer-footer {
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-text {
+    align-self: center;
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+  .footer-icon-group {
+    display: none;
+  }
+}
+@media(max-width: 479px) {
+  .footer-footer {
+    left: 0px;
+    bottom: 0px;
+    height: var(--dl-size-size-small);
+    padding: 0px;
+    position: absolute;
+    flex-wrap: wrap;
+    align-self: center;
+    flex-direction: column;
+  }
+  .footer-text {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .footer-icon-group {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    display: none;
+    position: 0px;
+  }
+}
